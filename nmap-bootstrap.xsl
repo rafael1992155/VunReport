@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-Nmap Bootstrap XSL
-Creative Commons BY-SA
-This software must not be used by military or secret service organisations.
-Andreas Hontzia (@honze_net)
+Rafael Marchetti
 -->
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <xsl:output method="html" encoding="utf-8" indent="yes" doctype-system="about:legacy-compat"/>
@@ -74,7 +71,8 @@ Andreas Hontzia (@honze_net)
         </nav>
         <div class="container">
           <div class="jumbotron">
-            <h1>Scan Report<br/><small>Nmap <xsl:value-of select="/nmaprun/@version"/></small></h1>
+            <h1><img src="https://raw.githubusercontent.com/rafael1992155/ReportVun/main/addn_logo.gif">
+            <h1>Relatório de Análise de Segurança de Rede <br/><small>Nmap <xsl:value-of select="/nmaprun/@version"/></small></h1>
             <pre style="white-space:pre-wrap; word-wrap:break-word;"><xsl:value-of select="/nmaprun/@args"/></pre>
             <p class="lead">
               <xsl:value-of select="/nmaprun/@startstr"/> – <xsl:value-of select="/nmaprun/runstats/finished/@timestr"/><br/>
