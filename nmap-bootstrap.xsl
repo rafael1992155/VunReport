@@ -51,7 +51,8 @@ Autor: Rafael Marchetti
       <body>
         <nav class="navbar navbar-default navbar-fixed-top">
           <div class="container-fluid">
-            <div class="navbar-header">              
+            <div class="navbar-header">
+              <img src="https://raw.githubusercontent.com/rafael1992155/ReportVun/main/addn_logo.gif" alt="addn_logo" class="img-fluid">
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
