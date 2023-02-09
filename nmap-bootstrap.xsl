@@ -16,6 +16,11 @@ Autor: Rafael Marchetti
         <script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap.min.js" integrity="sha384-7PXRkl4YJnEpP8uU4ev9652TTZSxrqC8uOpcV1ftVEC7LVyLZqqDUAaq+Y+lGgr9" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
         <style>
+           .logo {
+             width: 100px;
+             height: 100px;
+             max-width: 100%;
+          }
           .target:before {
             content: "";
             display: block;
@@ -52,7 +57,7 @@ Autor: Rafael Marchetti
         <nav class="navbar navbar-default navbar-fixed-top">
           <div class="container-fluid">
             <div class="navbar-header">
-              <img src="https://raw.githubusercontent.com/rafael1992155/ReportVun/main/addn_logo.gif" alt="addn_logo" class="img-fluid">
+              <img id="logo" src="https://raw.githubusercontent.com/rafael1992155/ReportVun/main/addn_logo.gif" alt="Logo">
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
