@@ -46,7 +46,7 @@ Rafael Marchetti
             content: "\e080"; /* glyphicon-chevron-right */
           }
         </style>
-        <title>Scan Report Nmap <xsl:value-of select="/nmaprun/@version"/></title>
+        <title>Relatório de Análise de Segurança de Rede <xsl:value-of select="/nmaprun/@version"/></title>
       </head>
       <body>
         <nav class="navbar navbar-default navbar-fixed-top">
