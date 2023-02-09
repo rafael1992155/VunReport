@@ -308,12 +308,7 @@ Rafael Marchetti
         </div>
         <footer class="footer">
           <div class="container">
-            <p class="text-muted">
-              This report was generated with <a href="https://github.com/honze-net/nmap-bootstrap-xsl">Nmap Bootstrap XSL</a>.<br/>
-              Licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons BY-SA</a>.<br/>
-              Designed and built by Andreas Hontzia (<a href="https://www.twitter.com/honze_net">@honze_net</a>).<br/>
-            </p>
-          </div>
+            </div>
         </footer>
       </body>
     </html>
