@@ -71,7 +71,7 @@ Rafael Marchetti
         </nav>
         <div class="container">
           <div class="jumbotron">
-            <h1><img src="https://raw.githubusercontent.com/rafael1992155/ReportVun/main/addn_logo.gif">
+            <xsl:variable name="addn_logo.gif" select="'https://raw.githubusercontent.com/rafael1992155/ReportVun/main/addn_logo.gif'"/>
             <h1>Relatório de Análise de Segurança de Rede <br/><small>Nmap <xsl:value-of select="/nmaprun/@version"/></small></h1>
             <pre style="white-space:pre-wrap; word-wrap:break-word;"><xsl:value-of select="/nmaprun/@args"/></pre>
             <p class="lead">
